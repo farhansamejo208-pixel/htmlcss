@@ -1,0 +1,15 @@
+@media(max-widht:600){
+    h1{
+        font-size: 20px;
+    }
+}
+@media(max-widht:768){
+    h1{
+        font-size: 30px;
+    }
+}
+@media(max-widht:1200){
+    h1{
+        font-size: 40px;
+    }
+}

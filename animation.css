@@ -1,0 +1,20 @@
+div{
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  animation: far 1s  infinite ease-in-out;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes far{
+  0%{
+    top:200px;
+  }
+  50%{
+    bottom: 100px;
+  }
+  100%{
+    left: 100px;
+  }
+}
+
